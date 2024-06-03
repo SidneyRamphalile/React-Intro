@@ -87,3 +87,51 @@ btn =>
 <FunctionComponent name="DevTown" age={20} />
 
 
+## Routing and Layouts in ReactJs
+Router >> Routes > Route
+/contact /aboutUs /signIn /signOut
+
+npm i react-router-dom
+
+Workflow with respect to your routes
+>> index.js(Browser Router) >> app.js(Browser Router) -> different routes
+
+
+## WorkFlow: index.js >> app.js >> pages
+
+
+//webpage
+>> /contact /aboutUs /signIn /signUp
+
+Layouts (HOC || High Order Component)
+/parentSignInAndUp
+>> Nav n Footer
+
+<!--- HOCs can add additional info/feeatures to the existing components -->
+
+
+
+## React Life Cycle Methods
+render(){
+
+}
+
+cdm
+componentDidMount(){
+
+}
+
+1 web page >> combination of 4 components >>  I want 2 components to appear on the screen
+
+componentDidUpdate(){
+input tab => enter
+}
+
+componentWillUnmount(){
+
+}
+
+
+
+
+
